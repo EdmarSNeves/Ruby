@@ -5,7 +5,7 @@ first_lambda.call
 
 first_lambda = -> (names){names.each{|name| puts name}}
 
-names = {'joao', 'maria', 'jose'}
+names = ['joao', 'maria', 'jose']
 first_lambda.call(names)
 
 #------------------------------------------------------------------

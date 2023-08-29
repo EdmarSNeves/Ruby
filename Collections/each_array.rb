@@ -6,4 +6,3 @@ nomes.each do |nome|
     puts nome + 'è o meu nome!'
 end
 
-#puts nome

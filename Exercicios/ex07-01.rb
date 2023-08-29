@@ -1,7 +1,9 @@
-name = -> { puts 'mane'.capitalize}
+names = ['edmar', 'anakin']
+name = -> (names){names.each{|name| puts name.capitalize}}
 
-def capitalize_name(name)
-    name.call 'edmar'
+
+def capi(name, names)
+    name.call(names)
 end
 
-capitalize_name(name)
+ capi(name, names)
